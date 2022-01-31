@@ -6,7 +6,7 @@ async function createWidget() {
     var cityID = "Your City ID";
     
     let fileManager = FileManager.iCloud();
-    let bgPath = fileManager.documentsDirectory() + "/Widgetbg.PNG";
+    let bgPath = fileManager.documentsDirectory() + "/Widgetbg.PNG"; //Replace with your background crop
     const months = ["Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
